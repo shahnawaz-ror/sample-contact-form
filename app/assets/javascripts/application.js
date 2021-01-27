@@ -11,6 +11,14 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery/jquery-3.2.1.min.js
+//= require animsition/js/animsition.min.js
+//= require bootstrap/js/popper.js
+//= require bootstrap/js/bootstrap.min.js
+//= require daterangepicker/moment.min.js
+//= require daterangepicker/daterangepicker.js
+//= require countdowntime/countdowntime.js
+//= require main.js
 //= require activestorage
 //= require turbolinks
 //= require_tree .
