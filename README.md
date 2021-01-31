@@ -47,6 +47,5 @@ response = http.request(request)
 puts response.read_body
 ```
 
-
 Heroku sample URL
 ```https://damp-plateau-34465.herokuapp.com/```
