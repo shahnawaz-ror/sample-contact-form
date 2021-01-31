@@ -21,4 +21,5 @@
 //= require main.js
 //= require activestorage
 //= require turbolinks
+//= require sweetalert
 //= require_tree .
