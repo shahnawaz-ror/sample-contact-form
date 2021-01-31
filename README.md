@@ -23,8 +23,7 @@ rake db:migrate
 for development
 rails s
 For API sample
-
-
+```
 require 'uri'
 require 'net/http'
 
@@ -33,7 +32,6 @@ url = URI("https://damp-plateau-34465.herokuapp.com/contacts")
 http = Net::HTTP.new(url.host, url.port)
 http.use_ssl = true
 http.verify_mode = OpenSSL::SSL::VERIFY_NONE
-
 request = Net::HTTP::Post.new(url)
 request["content-type"] = 'multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW'
 request["cache-control"] = 'no-cache'
@@ -42,8 +40,7 @@ request.body = "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: 
 
 response = http.request(request)
 puts response.read_body
-* ...
-
+```
 
 
 Heroku sample URL
