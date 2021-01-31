@@ -1,4 +1,5 @@
 class ContactsController < ApplicationController
+ skip_before_action :verify_authenticity_token
   # GET /contacts/new
   def new
     @contact = Contact.new
